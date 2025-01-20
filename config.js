@@ -8,8 +8,8 @@ const config = {
     token_endpoint_auth_method: "private_key_jwt",
     id_token_signed_response_alg: "RS256",
     request_object_signing_alg: "RS256",
-    redirect_uri: "https://your-redirect-uri",
-    response_type: "code",
+    redirect_uri: "https://redirectmeto.com/",
+    response_type: "code id_token",
     keys: [
       {
         kty: "RSA",
